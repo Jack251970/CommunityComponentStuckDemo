@@ -21,12 +21,12 @@
             Style="{StaticResource PageTitleStyle}" />
 
         <Grid Grid.Row="1">
-            <!--  Bug: If you use this user control, the window will be stuck.  -->
+            <!--  Bug: If you use the user control based on the RadialGauge component, the window will be stuck.  -->
             <clock:AnalogClock
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Size="200" />
-            <!--  If you use this, the window works well.  -->
+            <!--  If you use the RadialGauge component, the window works well.  -->
             <!--<control:RadialGauge
                 Width="200"
                 Height="200"
